@@ -1,0 +1,45 @@
+# Tomcat
+server:
+    tomcat:
+        max-threads: 10
+        min-spare-threads: 10
+    port: 7777
+
+ #mysql
+#spring:
+#    datasource:
+#        dynamic:
+#            primary: slave #设置默认的数据源或者数据源组,默认值即为master
+#            datasource:
+#                master:
+#                    username: root
+#                    password: dk_1234_163.com
+#                    driver-class-name: com.mysql.jdbc.Driver
+#                    url: jdbc:mysql://47.97.198.204:3306/oshop_app_db?useUnicode=true&characterEncoding=UTF-8
+#                slave:
+#                    username: root
+#                    password: dk_1234_163.com
+#                    driver-class-name: com.mysql.jdbc.Driver
+#                    url: jdbc:mysql://47.97.198.204:3306/oshop_app_db?useUnicode=true&characterEncoding=UTF-8
+
+# mysql
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://120.27.232.182:3306/oshop_app_db?useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: dk_1234_163.com
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+    thymeleaf:
+        mode: LEGACYHTML5
+        cache: false
+
+
+
+# Mybatis配置
+mybatis:
+    mapperLocations: classpath:mapper/**/*.xml
+

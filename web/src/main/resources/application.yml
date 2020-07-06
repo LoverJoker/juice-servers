@@ -1,0 +1,29 @@
+server:
+  port: 8080
+logging:
+  level:
+    root:
+      info
+  file:
+    path: ./logs
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://120.27.232.182:3306/oshop_app_db?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: dk_1234_163.com
+
+  redis:
+    open: false  # 是否开启redis缓存  true开启   false关闭
+    database: 0
+    host: 120.27.232.182
+    port: 6379
+    password:    # 密码（默认为空）
+    timeout: 6000ms  # 连接超时时长（毫秒）
+    pool:
+      max-active: 20
+      max-wait: 10000
+      max-idle: 20
+      min-idle: 5

@@ -1,0 +1,13 @@
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/service/GeneratorService.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/mapper/GeneratorMapper.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/utils/GeneratorUtils.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/entity/TableEntity.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/controller/HomeController.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/config/WebConfig.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/entity/R.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/entity/Table.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/utils/DateUtils.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/utils/ViewGeneratorUtils.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/entity/ColumnEntity.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/GeneratorBootstrap.java
+/Users/jokerliang/work/wubao/source/oshop-saas-server/saas-generator/src/main/java/com/wubao/oshop/saas/security/generator/rest/GeneratorRest.java

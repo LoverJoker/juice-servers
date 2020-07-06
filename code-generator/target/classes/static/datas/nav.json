@@ -1,0 +1,12 @@
+[
+  {
+    "title": "代码生成器",
+    "icon": "&#xe641;",
+    "href": "/generator"
+  },
+  {
+    "title": "根据sql生成vue",
+    "icon": "&#xe641;",
+    "href": "/gener-vue"
+  }
+]

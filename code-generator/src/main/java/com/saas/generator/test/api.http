@@ -1,0 +1,35 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST  http://localhost:7777/base/generator/code2
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"
+
+field-value
+--WebAppBoundary--
+
+###
+
+
+POST http://localhost:7777/base/generator/code2
+Content-Type: application/json
+
+
+{
+  "sql": "SELECT * FROM  o_cabinet_cargo  a LEFT JOIN o_product b ON a.product_id=b.id"
+}
+
+###
+
+
+
+# 1.isOpt = true
+# 2.是否显示分页 isPage = true
+# 3.是否显示刷新搜索 isSearch = true
+
